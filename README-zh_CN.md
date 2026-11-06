@@ -1,10 +1,12 @@
-# PanOS v2026
+# panOS v2026
 
 [English] | 简体中文
 
 [English]: README.md
 
 ![panOS_v2026](panOS_v2026.png)
+
+> 本项目已基本达到生产可用状态，后续仅不定期更新 ISO，以保持基础组件版本更新。
 
 ## 特性
 
@@ -54,7 +56,7 @@
 
 ## v2027 计划
 
-- 底层使用 Debian Sid。
+- ~~底层使用 Debian Sid。~~
 - 支持插件，可在不增加 ISO 体积的前提下侧载更多应用。
 - 内置更多维护工具，尽量覆盖更多场景。
 - 全面转向 Wayland。

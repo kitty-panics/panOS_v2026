@@ -6,6 +6,8 @@ English | [简体中文]
 
 ![panOS_v2026](panOS_v2026.png)
 
+> This project is essentially production-ready. The ISO will only be updated from time to time to keep base components current.
+
 ## Features
 
 - About 1GB — smaller than Arch's official TTY ArchISO.
@@ -54,7 +56,7 @@ English | [简体中文]
 
 ## v2027 Plans
 
-- Move the base to Debian Sid.
+- ~~Move the base to Debian Sid.~~
 - Plugin support, so you can sideload more apps without growing the ISO.
 - More built-in maintenance tools, covering more scenarios.
 - Full switch to Wayland.
