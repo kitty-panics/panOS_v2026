@@ -1,4 +1,4 @@
-# PanOS v2026
+# panOS v2026
 
 English | [简体中文]
 
@@ -18,6 +18,7 @@ English | [简体中文]
 - A hand-picked set of online apps, enough for light use and office work.
 - Chinese fonts and input methods preconfigured — ready to go for Chinese users.
 - Comes with the [Linyaps App Store] for installing various domestic apps on the fly.
+- Tencent CodeBuddy-Code integration — type codebuddy or cbc in your terminal to launch it.
 - VirtualBox + VMware guest additions built in — smoother in VMs.
 - Shortcuts kept close to Windows so it feels familiar.
 
