@@ -10,19 +10,21 @@
 
 ## 特性
 
-- 镜像体积约 1GB，比 Arch 官方的 TTY ArchISO 更小。
-- 基于 Testing 仓库构建，镜像定期滚动更新。
+- ~~镜像体积约 1GB，比 Arch 官方的 TTY ArchISO 更小。~~ (不再发布 Lite ISO)
+- 基于 [Testing 仓库] 构建，镜像定期滚动更新。
 - 支持 BIOS / UEFI 双模启动，即插即用。
-- 预装 Xfce4 桌面与常用维护工具，图形化排障，即时检索资料更方便。
-- 界面清爽简约，能自适应各种屏幕分辨率。
-- 精选常用应用在线版，可满足轻度使用和办公场景。
+- 预装 Xfce4 桌面，界面清爽简约，能自适应各种屏幕分辨率。
 - 预配置中文字体与输入法，中文用户开箱即用。
-- 集成 [如意玲珑应用商店]，可临时安装各类国产软件。
-- 集成腾讯 CodeBuddy-Code，终端中输入 codebuddy / cbc 调用。
+- 包含引导、性能、磁盘、网络、日志... 等各种维护工具。
+- 精选常用应用在线版，可满足轻度使用和办公场景。
 - 内置 VirtualBox + VMware 增强插件，虚拟机中使用更顺手。
+- 集成 [如意玲珑应用商店]，可临时安装各类国产软件。
+- 集成腾讯 [CodeBuddy Code]，终端中输入 codebuddy / cbc 调用。
 - 常用快捷键尽量贴近 Windows，操作更熟悉。
 
+[Testing 仓库]: https://wiki.archlinux.org/title/Official_repositories#Testing_repositories
 [如意玲珑应用商店]: https://store.linyaps.org.cn/
+[CodeBuddy Code]: https://www.codebuddy.cn/
 
 ## 使用
 

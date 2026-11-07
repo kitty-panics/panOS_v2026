@@ -10,19 +10,21 @@ English | [简体中文]
 
 ## Features
 
-- About 1GB — smaller than Arch's official TTY ArchISO.
-- Built from the Testing repo, rolls and updates regularly.
+- ~~Around 1GB — smaller than Arch's official TTY ArchISO.~~ (Lite ISO no longer published)
+- Built from the [Testing repo], rolls and updates regularly.
 - Boots in both BIOS and UEFI, plug and play.
-- Comes with Xfce4 and handy maintenance tools — easier to troubleshoot graphically and look things up on the fly.
-- Clean, minimal UI that adapts to any screen resolution.
-- A hand-picked set of online apps, enough for light use and office work.
+- Ships with Xfce4 — clean and minimal, adapts to any screen resolution.
 - Chinese fonts and input methods preconfigured — ready to go for Chinese users.
-- Comes with the [Linyaps App Store] for installing various domestic apps on the fly.
-- Tencent CodeBuddy-Code integration — type codebuddy or cbc in your terminal to launch it.
+- Bundles all sorts of maintenance tools — boot, performance, disk, network, logs, and more.
+- A hand-picked set of online apps, enough for light use and office work.
 - VirtualBox + VMware guest additions built in — smoother in VMs.
+- Comes with the [Linyaps App Store] for installing various domestic apps on the fly.
+- Tencent [CodeBuddy Code] integration — type codebuddy / cbc in your terminal to launch it.
 - Shortcuts kept close to Windows so it feels familiar.
 
+[Testing repo]: https://wiki.archlinux.org/title/Official_repositories#Testing_repositories
 [Linyaps App Store]: https://store.linyaps.org.cn/
+[CodeBuddy Code]: https://www.codebuddy.cn/
 
 ## Usage
 
