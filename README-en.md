@@ -40,11 +40,7 @@ English | [简体中文]
 - `Ctrl + Space` to switch between Chinese and English.
 - `Ctrl + ;` to open the clipboard.
 
-#### 3. `~/.local/.bin` has some custom scripts.
-
-#### 4. `~/ .local/.pkg/Fake` has some placeholder empty packages to keep the ISO small.
-
-#### 5. Use `run` instead of `sudo` so you don't have to type a password.
+#### 3. Use `run` instead of `sudo` so you don't have to type a password.
 
 ## Download
 

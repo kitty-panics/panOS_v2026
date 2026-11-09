@@ -40,11 +40,22 @@
 - 通过 `Ctrl + Space` 切换中英文输入法。
 - 通过 `Ctrl + ;` 打开剪切板。
 
-#### 3. `~/.local/.bin` 里面是个人定制的一些脚本。
+#### 3. 使用 `run` 命令代替 `sudo` 可免于输入密码。
 
-#### 4. `~/ .local/.pkg/Fake` 里面是一些占位空包，用于减小 ISO 体积。
+## 文档
 
-#### 5. 使用 `run` 命令代替 `sudo` 可免于输入密码。
+- [系统概览](docs/01-overview.md)
+- [桌面环境](docs/02-desktop.md)
+- [系统快捷键](docs/03-shortcuts.md)
+- [内置应用](docs/04-apps.md)
+- [自研脚本](docs/05-scripts.md)
+- [输入法](docs/06-input.md)
+- [软件包管理](docs/07-packages.md)
+- [安装与复刻](docs/08-install.md)
+- [系统维护](docs/09-maintenance.md)
+- [配置文件参考](docs/10-config.md)
+- [应用内快捷键](docs/11-app-keys.md)
+- [软件包清单](docs/12-packages-list.md)
 
 ## 下载
 
@@ -56,21 +67,6 @@
 
 - 全新安装 Arch Linux，点击 "全新安装" 桌面图标，会调用 `archinstall` 命令引导你完成安装。
 - 如果要在 panOS v2026 基础上继续使用，点击 "复刻panOS" 桌面图标，会弹出一篇详细文档引导你完成复刻。
-
-## 文档
-
-- [系统概览](docs/01-overview)
-- [桌面环境](docs/02-desktop)
-- [系统快捷键](docs/03-shortcuts)
-- [内置应用](docs/04-apps)
-- [自研脚本](docs/05-scripts)
-- [输入法](docs/06-input)
-- [软件包管理](docs/07-packages)
-- [安装与复刻](docs/08-install)
-- [系统维护](docs/09-maintenance)
-- [配置文件参考](docs/10-config)
-- [应用内快捷键](docs/11-app-keys)
-- [软件包清单](docs/12-packages-list)
 
 ## v2027 计划
 
