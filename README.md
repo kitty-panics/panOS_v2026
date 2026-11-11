@@ -4,9 +4,15 @@
 
 [English]: README-en.md
 
-![panOS_v2026](images/panOS_v2026.png)
+![v2026](images/v2026.png)
 
 > 本项目已基本达到生产可用状态，后续仅不定期更新 ISO，以保持基础组件版本更新。
+
+## 下载
+
+- [Releases · kitty-panics/panOS_v2026]
+
+[Releases · kitty-panics/panOS_v2026]: https://github.com/kitty-panics/panOS_v2026/releases
 
 ## 特性
 
@@ -42,6 +48,11 @@
 
 #### 3. 使用 `run` 命令代替 `sudo` 可免于输入密码。
 
+## 安装
+
+- 全新安装 Arch Linux，点击 **全新安装** 桌面图标，会调用 `archinstall` 命令引导你完成安装。
+- 如果要在 panOS v2026 基础上继续使用，点击 **复刻panOS** 桌面图标，会弹出一篇详细文档引导你完成复刻。
+
 ## 文档
 
 - [系统概览](docs/01-overview.md)
@@ -57,20 +68,16 @@
 - [应用内快捷键](docs/11-app-keys.md)
 - [软件包清单](docs/12-packages-list.md)
 
-## 下载
-
-- [Releases · kitty-panics/panOS_v2026]
-
-[Releases · kitty-panics/panOS_v2026]: https://github.com/kitty-panics/panOS_v2026/releases
-
-## 安装
-
-- 全新安装 Arch Linux，点击 "全新安装" 桌面图标，会调用 `archinstall` 命令引导你完成安装。
-- 如果要在 panOS v2026 基础上继续使用，点击 "复刻panOS" 桌面图标，会弹出一篇详细文档引导你完成复刻。
-
 ## v2027 计划
 
 - [ ] ~~底层使用 Debian Sid。~~
 - [ ] 支持插件，可在不增加 ISO 体积的前提下侧载更多应用。
-- [X] 内置更多维护工具，尽量覆盖更多场景。
-- [ ] 全面转向 Wayland。
+- [X] 集成更多维护工具，尽量覆盖更多场景。
+- [ ] 全面转向 Wayland (等待 [Xfce Wayland] 可用)。
+
+[Xfce Wayland]: https://wiki.xfce.org/releng/wayland_roadmap
+
+## 界面预览
+
+![开始菜单, Neovim, 文件管理器](images/start&nvim&fm.png)
+![开始菜单, Fastfetch, 设置](images/start&ff&set.png)

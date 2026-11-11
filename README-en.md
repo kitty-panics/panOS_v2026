@@ -4,9 +4,15 @@ English | [简体中文]
 
 [简体中文]: README.md
 
-![panOS_v2026](images/panOS_v2026.png)
+![v2026](images/v2026.png)
 
 > This project is essentially production-ready. The ISO will only be updated from time to time to keep base components current.
+
+## Download
+
+- [Releases · kitty-panics/panOS_v2026]
+
+[Releases · kitty-panics/panOS_v2026]: https://github.com/kitty-panics/panOS_v2026/releases
 
 ## Features
 
@@ -42,20 +48,36 @@ English | [简体中文]
 
 #### 3. Use `run` instead of `sudo` so you don't have to type a password.
 
-## Download
-
-- [Releases · kitty-panics/panOS_v2026]
-
-[Releases · kitty-panics/panOS_v2026]: https://github.com/kitty-panics/panOS_v2026/releases
-
 ## Installation
 
-- For a fresh Arch Linux install, click the "Fresh Install" desktop icon — it runs `archinstall` and walks you through it.
-- To keep using panOS v2026 as a base, click the "Replicate panOS" desktop icon — a detailed doc pops up to walk you through it.
+- For a fresh Arch Linux install, click the **全新安装** desktop icon — it runs `archinstall` and walks you through it.
+- To keep using panOS v2026 as a base, click the **复刻panOS** desktop icon — a detailed doc pops up to walk you through it.
+
+## Docs
+
+- [系统概览](docs/01-overview.md)
+- [桌面环境](docs/02-desktop.md)
+- [系统快捷键](docs/03-shortcuts.md)
+- [内置应用](docs/04-apps.md)
+- [自研脚本](docs/05-scripts.md)
+- [输入法](docs/06-input.md)
+- [软件包管理](docs/07-packages.md)
+- [安装与复刻](docs/08-install.md)
+- [系统维护](docs/09-maintenance.md)
+- [配置文件参考](docs/10-config.md)
+- [应用内快捷键](docs/11-app-keys.md)
+- [软件包清单](docs/12-packages-list.md)
 
 ## v2027 Plans
 
 - [ ] ~~Move the base to Debian Sid.~~
 - [ ] Plugin support, so you can sideload more apps without growing the ISO.
 - [X] More built-in maintenance tools, covering more scenarios.
-- [ ] Full switch to Wayland.
+- [ ] Full switch to Wayland (Waiting for [Xfce Wayland] to become available).
+
+[Xfce Wayland]: https://wiki.xfce.org/releng/wayland_roadmap
+
+## Screenshot
+
+![Start Menu, Neovim, File Manager](images/start&nvim&fm.png)
+![Start Menu, Fastfetch, Settings](images/start&ff&set.png)
