@@ -16,7 +16,7 @@ English | [简体中文]
 
 ## Features
 
-- ~~Around 1GB — smaller than Arch's official TTY ArchISO.~~ (Lite ISO no longer published)
+- Around 1GB — smaller than Arch's official TTY ArchISO (Lite ISO).
 - Built from the [Testing repo], rolls and updates regularly.
 - Boots in both BIOS and UEFI, plug and play.
 - Ships with Xfce4 — clean and minimal, adapts to any screen resolution.
