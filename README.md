@@ -8,6 +8,12 @@
 
 > 本项目已基本达到生产可用状态，后续仅不定期更新 ISO，以保持基础组件版本更新。
 
+panOS 是一个以 **简洁、轻量、开箱即用** 为目标的 Linux 维护系统。
+
+它基于 Arch Linux Testing 仓库构建，采用 Xfce4 桌面环境与 X11 图形栈，运行 Linux Zen 内核。
+系统内置大量维护工具，并以 TUI (终端界面) 程序替代重型 GUI 工具，并以浏览器 APP 模式承载网页应用，
+在极小体积内兼顾维护、轻度日用与系统安装等场景。
+
 ## 下载
 
 - [Releases · kitty-panics/panOS_v2026]
@@ -16,16 +22,16 @@
 
 ## 特性
 
-- 镜像体积约 1GB，比 Arch 官方的 TTY ArchISO 更小 (Lite ISO)。
+- 镜像体积约 1GB，比 Arch 官方的 TTY ArchISO 更小。
 - 基于 [Testing 仓库] 构建，镜像定期滚动更新。
 - 支持 BIOS / UEFI 双模启动，即插即用。
-- 预装 Xfce4 桌面，界面清爽简约，能自适应各种屏幕分辨率。
+- 预装 Xfce 桌面，界面清爽简约，能自适应各种屏幕分辨率。
 - 预配置中文字体与输入法，中文用户开箱即用。
 - 包含引导、性能、磁盘、网络、日志... 等各种维护工具。
 - 精选常用应用在线版，可满足轻度使用和办公场景。
 - 内置 VirtualBox + VMware 增强插件，虚拟机中使用更顺手。
 - 集成 [如意玲珑应用商店]，可临时安装各类国产软件。
-- 集成腾讯 [CodeBuddy Code]，终端中输入 codebuddy / cbc 调用。
+- 集成腾讯 [CodeBuddy Code]，终端中输入 codebuddy 调用。
 - 常用快捷键尽量贴近 Windows，操作更熟悉。
 
 [Testing 仓库]: https://wiki.archlinux.org/title/Official_repositories#Testing_repositories
@@ -56,7 +62,7 @@
 
 #### 复刻panOS
 
-> 使用此安装选项，建议不要使用 Lite ISO，以避免缺失部分系统文件
+> 使用此安装选项，建议不要使用 VM ISO / Lite ISO，以避免缺失部分系统文件
 > (尽管它们不影响日常运行与使用)。
 
 点击 **复刻panOS** 桌面图标，会弹出一篇详细文档引导你完成复刻。
